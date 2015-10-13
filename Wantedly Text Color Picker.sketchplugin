@@ -167,7 +167,7 @@
 			var name = n_match[1].toLowerCase().replace(/ /g, "-");
 			name = name.replace("'", "");
 
-			return "color:" + "$" + name + ";";
+			return "$" + name + ";";
 		} else {
 			return "nill";
 			[doc showMessage:"Failed"]
